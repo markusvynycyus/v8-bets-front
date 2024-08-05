@@ -1,0 +1,77 @@
+/* Estilos Gerais do Footer */
+.footer-container {
+    background-color: #041635; /* Ajuste a cor de fundo conforme necessário */
+    color: #fff; /* Ajuste a cor do texto conforme necessário */
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex; /* Organize as seções horizontalmente */
+    justify-content: space-between; /* Distribua as seções uniformemente */
+    align-items: flex-start; /* Alinhe as seções verticalmente */
+    flex-wrap: wrap; /* Permita que as seções sejam quebradas em telas menores */
+  }
+  
+  .footer-section {
+    flex: 1; /* Distribua o espaço igualmente entre as seções */
+    margin-bottom: 20px; /* Adicione espaçamento entre as seções */
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px; /* Adicione espaçamento abaixo dos títulos */
+  }
+  
+  .footer-section ul {
+    list-style: none; /* Remova os marcadores padrão */
+    padding: 0; /* Redefinir o preenchimento padrão */
+  }
+  
+  .footer-section li {
+    margin-bottom: 10px; /* Adicione espaçamento entre os itens da lista */
+  }
+  
+  .footer-section a {
+    color: #fff; /* Ajuste a cor do link conforme necessário */
+    text-decoration: none; /* Remova o sublinhado padrão */
+  }
+  
+  .footer-section a:hover {
+    text-decoration: underline; /* Adicione sublinhado ao passar o mouse */
+  }
+  
+  /* Estilos dos Métodos de Pagamento */
+  .payment-methods {
+    display: flex; /* Organize ícones horizontalmente */
+    flex-wrap: wrap; /* Permita que os ícones sejam quebrados em telas menores */
+  }
+  
+  .payment-methods li {
+    margin-right: 10px; /* Adicione espaçamento entre os ícones */
+  }
+  
+  .payment-methods img {
+    width: 30px; /* Ajuste o tamanho do ícone conforme necessário */
+    height: auto; /* Mantenha a proporção do aspecto */
+  }
+  
+  /* Estilos de Prêmios */
+  .awards {
+    display: flex; /* Organize prêmios horizontalmente */
+    flex-wrap: wrap; /* Permita que os prêmios sejam quebrados em telas menores */
+  }
+  
+  .awards li {
+    margin-right: 10px; /* Adicione espaçamento entre os prêmios */
+  }
+  
+  .awards img {
+    width: 80px; /* Ajuste o tamanho do prêmio conforme necessário */
+    height: auto; /* Mantenha a proporção do aspecto */
+  }
+  
+  /* Estilos de Copyright do Footer */
+  .footer-copyright {
+    text-align: center; /* Centralize o texto do copyright */
+    margin-top: 20px; /* Adicione espaçamento acima do copyright */
+  }
+  

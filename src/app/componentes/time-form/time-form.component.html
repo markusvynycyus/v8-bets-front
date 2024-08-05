@@ -1,0 +1,13 @@
+<div class="card my-5">
+    <div class="card-body">
+      <form (ngSubmit)="onSubmit()" #timeForm="ngForm">
+        <div class="form-group">
+          <label for="name">Nome :</label>
+          <input type="text" [(ngModel)]="time.nome" class="form-control" id="name" name="name" placeholder="Digite o nome do Time"
+            required #name="ngModel">
+        </div>
+        <div [hidden]="!name.pristine" class="alert alert-danger">Nome é obrigatório</div>        
+        <button type="submit" [disabled]="!timeForm.form.valid" class="btn btn-info">Enviar</button>
+      </form>
+    </div>
+</div>
